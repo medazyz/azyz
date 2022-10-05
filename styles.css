@@ -1,23 +1,92 @@
-h1{
-    color: red;
-    font-family: robot;
-    text-align: center;
-}
-#blue-bordered {
-    border-style: outset;
-    border-width: 5px;
-    border-color: gold;
-    border-radius: 10px;
+*{
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box ;
 }
 body{
-    background-color:blueviolet 
+    font-family: Roboto,Arial,sans-serif;
 }
-form {
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
     font-weight: bold;
-    background-color: #333;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.container{
+    background: #00ccb1;
+    box-sizing: inherit;
+    }
+
+
+
+.box h1{
+    font-size: 1.625em;
+    font-weight: 400;
     color: #fff;
-    padding: .5em;
+    margin: .3em 0;
+}
+.box p{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: blueviolet;
+}
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
 }
 p {
-    display: inline;
+    margin: 1.6em 0;
 }
+.glass{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+
+
+
+
+
+ 
